@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <div class="header">
+    <img class="header_logo" src="./img/SnapBG.ai_1744380875777.png" alt="">
+    <div class="header_links">
+      <a href="./news.html" class="header__item">Новости</a>
+      <a href="./vacancy.html" class="header__item">Вакансий</a>
+      <a href="./workers.html" class="header__item">Работники</a>
+      <a href="./kabinet.html" class="header__item">Кабинет</a>
+    </div>
+  </div>
+  
+  <div class="kabinet">
+    <div class="kabinet__inner">
+      <!-- Левая часть -->
+      <div class="left_block">
+        <!-- Портрет -->
+        <div class="kabinet_port">
+          <img class="kabinet_port_img" src="./img/a1b0e6dddcc9bf4c04e02ca453910a85.jpg" alt="">
+          <div class="kabinet_port_text">
+            <h2>Olzhas Akzholbay</h2>
+            <p>Сильная команда начинается с уважения, доверия и заботы о людях. HR — это не просто про найм, а про создание среды, в которой каждый сотрудник чувствует свою ценность, может расти и приносить максимум пользы компании.</p>
+            <button class="create-post-btn">Создать пост</button>
+          </div>
+        </div>
+  
+        <!-- Календарь -->
+        <div class="calendar">
+          <div class="header_calendar">
+            <button id="prevBtn"><img src="./img/prev.png" alt=""></button>
+            <div class="monthYear" id="monthYear">April 2025</div>
+            <button id="nextBtn"><img src="./img/next.png" alt=""></button>
+          </div>
+          <div class="days">
+            <div class="day">Mon</div><div class="day">Tue</div><div class="day">Wed</div>
+            <div class="day">Thu</div><div class="day">Fri</div><div class="day">Sat</div><div class="day">Sun</div>
+          </div>
+          <div class="dates" id="dates"></div>
+        </div>
+      </div>
+  
+      <!-- Правая часть -->
+      <div class="employee-table">
+        <h2>Список сотрудников</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>ФИО</th><th>Год рождения</th><th>Возраст</th><th>Должность</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Иванов Иван Иванович</td><td>1990</td><td>35</td><td>Менеджер по продажам</td></tr>
+            <tr><td>Петрова Мария Сергеевна</td><td>1985</td><td>40</td><td>HR-менеджер</td></tr>
+            <tr><td>Смирнов Алексей Павлович</td><td>1993</td><td>32</td><td>Frontend-разработчик</td></tr>
+            <tr><td>Сидорова Анна Олеговна</td><td>1998</td><td>27</td><td>Бухгалтер</td></tr>
+            <tr><td>Кузнецов Михаил Андреевич</td><td>1979</td><td>46</td><td>Руководитель отдела</td></tr>
+            <tr><td>Белова Елена Николаевна</td><td>1995</td><td>30</td><td>UI/UX дизайнер</td></tr>
+            <tr><td>Тихонов Артём Игоревич</td><td>1992</td><td>33</td><td>Backend-разработчик</td></tr>
+            <tr><td>Морозова Инна Владимировна</td><td>1988</td><td>37</td><td>Аналитик</td></tr>
+            <tr><td>Егоров Василий Евгеньевич</td><td>1996</td><td>29</td><td>QA-инженер</td></tr>
+            <tr><td>Захарова Оксана Юрьевна</td><td>1991</td><td>34</td><td>Специалист по кадрам</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  
+    <script src="./js/main.js"></script>
+</body>
+</html>

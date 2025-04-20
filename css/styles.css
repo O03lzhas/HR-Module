@@ -1,0 +1,624 @@
+* {
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+/*Main страница*/
+.main {
+  background-color: rgb(247, 241, 195);
+  width:100wh;
+  height:100vh;
+  text-align: center;
+  justify-content: center;
+}
+
+.main_under_block {
+  width:1000px;
+  margin:0 auto;
+  text-align: center;
+  padding-top: 10%;
+  text-transform: uppercase;
+}
+
+.main_title {
+  margin: 20px 0px;
+}
+
+.main_sub_title {
+  width:600px;
+  margin:0 auto;
+}
+
+.main_btn {
+  margin:0 auto;
+  display: flex;
+}
+.main_btn {
+  margin:0 auto;
+  display: flex;
+}
+.main_btn_w {
+  border-radius: 10px;
+  border-style: none;
+  padding: 20px 40px;
+  cursor: pointer;
+  margin-top: 50px;
+  text-decoration: none;
+  color:#000;
+}
+
+.sign a{
+  text-decoration: none;
+  color:#000;
+}
+
+/*Логотип*/
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color:#000;
+  margin-bottom: 150px;
+  padding-top: 100px;
+}
+.logo img{
+ width:100px;
+ height: auto;
+}
+/*HEADER*/
+.header {
+  width:100%;
+  height:70px;
+  background-color: red;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.header_logo {
+  width:120px;
+}
+.header_links {
+
+}
+.header__item {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+.header__item:hover {
+  text-decoration: underline;
+}
+
+.header-title {
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+  width:400px;
+  margin:0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+/*Новости news*/
+.card {
+  position: relative;
+  width:360px;
+  min-height: 400px;
+  background: rgb(255,255,255);
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2), 05px -5px 10px rgba(0,0,0,0.2);
+  padding:20px;
+  margin: 0 auto;
+}
+.card_space {
+  margin-bottom: 20px;
+}
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile {
+  display: flex;
+  justify-content: space-between;
+}
+.profile-img {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 8px;
+}
+.cover {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+}
+.profile h3 {
+  font-size: 16px;
+  color:#4d4d4d;
+  font-weight: 500;
+  line-height: 1em;
+}
+.profile h3 span{
+  font-size: 0.7em;
+}
+.img img{
+  position: relative;
+  width:100%;
+  height: 320px;
+  margin: 10px 0 15px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  padding-right: 230px;
+}
+.buttons img{
+  max-width: 24px;
+  max-height: 24px;
+  cursor: pointer;
+}
+.likes {
+  font-weight: 500;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+
+/*Ваканский*/
+
+.vac {
+  width:1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.vac__inner {
+  width:1000px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.vac__item {
+  border: 1px solid #9b9b9b;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.vac__item_name {
+  margin: 20px 0px;
+}
+.vac__item_zp {
+  margin: 10px 0px;
+}
+.vac__item_about {
+  margin: 10px 0px;
+}
+
+.vac_items_btns {
+  display: flex;
+}
+.vac__item_btn_get {
+  width:300px;
+  margin-right: 20px;
+}
+.vac__item_btn_contact {
+  width:150px;
+}
+.vac_btn {
+  border-style: none;
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+}
+.vac_btn:hover{
+  background-color: #9b9b9b;
+  transition: all .3s ease-in-out;
+}
+
+
+/*Личный кабинет*/
+.kabinet {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.kabinet__inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.left_block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 600px;
+}
+
+.kabinet_port {
+  display: flex;
+  width: 100%;
+  border: 2px solid #888181;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.kabinet_port_img {
+  max-width: 120px;
+  height: 120px;
+  margin-right: 20px;
+  border-radius: 15px;
+}
+
+.kabinet_port_text h2 {
+  margin-bottom: 20px;
+}
+
+.calendar {
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.header_calendar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.monthYear {
+  text-align: center;
+  font-weight: 600;
+  width: 150px;
+}
+
+.header_calendar button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.2);
+}
+
+.days {
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+}
+
+.day {
+  text-align: center;
+  padding: 5px;
+  color: #999FA6;
+  font-weight: 500;
+}
+
+.dates {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  transition: 0.2s;
+}
+
+.date:hover,
+.date.active {
+  background: #ff5869;
+  color: #fff;
+}
+
+.date.inactive {
+  color: #d2d2d2;
+}
+
+.date.inactive:hover {
+  color: #fff;
+}
+
+.employee-table {
+  flex: 1;
+  max-width: 800px;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  overflow-x: auto;
+}
+
+.employee-table h2 {
+  text-align: center;
+  padding: 15px 0;
+  background-color: #f3f3f3;
+  margin: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: #333;
+}
+
+.employee-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.employee-table th, 
+.employee-table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.employee-table thead {
+  background-color: #f8f8f8;
+}
+
+.employee-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.employee-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/*Создание ПОСТА*/
+.create-post-btn {
+  width: 100%;
+  padding: 15px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create-post-btn:hover {
+  background-color: rgb(185, 63, 63);
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+
+
+/* Card styles */
+.card {
+  position: relative;
+  width:360px;
+  min-height: 400px;
+  background: rgb(255,255,255);
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2), 05px -5px 10px rgba(0,0,0,0.2);
+  padding:20px;
+  margin: 0 auto;
+}
+.card_space {
+  margin-top: 20px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile {
+  display: flex;
+  justify-content: space-between;
+}
+.profile-img {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 8px;
+}
+.cover {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+}
+.profile h3 {
+  font-size: 16px;
+  color:#4d4d4d;
+  font-weight: 500;
+  line-height: 1em;
+}
+.profile h3 span{
+  font-size: 0.7em;
+}
+.img img{
+  position: relative;
+  width:100%;
+  height: 320px;
+  margin: 10px 0 15px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  padding-right: 230px;
+}
+.buttons img{
+  max-width: 24px;
+  max-height: 24px;
+  cursor: pointer;
+}
+.likes {
+  font-weight: 500;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+
+/*SIDEBAR*/
+/* Sidebar */
+
+.sidebar {
+  width: 250px;
+  padding: 20px;
+  background-color: #fff; /* Белый фон для боковой панели */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  position: fixed; /* Закрепляем sidebar */
+  top: 70px;
+  right: 0;
+  bottom: 0;
+  overflow-y: auto; /* Добавляем прокрутку по вертикали, если контента много */
+}
+
+/* Секции в sidebar */
+.sidebar-section {
+  margin-bottom: 20px;
+}
+
+.sidebar-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.sidebar-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.sidebar-section ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar-section ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.sidebar-section ul li a:hover {
+  color: #007BFF; /* Цвет при наведении */
+}
+
+/* Кнопка в sidebar */
+.sidebar .btn {
+  display: inline-block;
+  background-color: #007BFF;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.sidebar .btn:hover {
+  background-color: #0056b3; /* Цвет кнопки при наведении */
+}
+
+
+/*Работники*/
+
+/* Контейнер для департаментов */
+.department-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+/* Стили для блоков департаментов */
+.department-card {
+  width: 250px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.department-card:hover {
+  transform: translateY(-5px);
+}
+
+.department-card h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.department-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Контейнер для резюме работников */
+.resume-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Стили для резюме */
+.resume-card {
+  width: 30%;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.resume-card h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.resume-card p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
